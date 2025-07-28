@@ -249,7 +249,7 @@ const Social3D = () => {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/surajkumar",
+      url: "https://www.linkedin.com/in/suraj-kumar-337a27227",
       description: "Professional network and career updates",
       component: LinkedInIcon3D,
       icon: FaLinkedin,
@@ -257,7 +257,7 @@ const Social3D = () => {
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/surajkumar",
+      url: "https://x.com/SurajKu9683687?t=c7ayh7Mn_2RZc6k4ofm84w&s=09",
       description: "Tech insights and development thoughts",
       component: TwitterIcon3D,
       icon: FaTwitter,
@@ -265,7 +265,7 @@ const Social3D = () => {
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/surajkumar",
+      url: "https://www.instagram.com/sawsuraj7?igsh=MWp0dGU1NzNpcHJnbA==",
       description: "Behind the scenes coding journey",
       component: InstagramIcon3D,
       icon: FaInstagram,

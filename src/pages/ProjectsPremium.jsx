@@ -41,24 +41,6 @@ const projects = [
     image: "/images/muimage.png",
     github: "https://github.com/surajkum7462/portfolio-frontend",
     featured: true
-  },
-  {
-    title: "Real-time Chat Platform",
-    description:
-      "Modern chat application with end-to-end encryption, file sharing, video calls, and AI-powered message suggestions.",
-    tags: ["React", "Node.js", "Socket.io", "WebRTC", "MongoDB"],
-    image: "/images/muimage.png",
-    github: "#",
-    featured: false
-  },
-  {
-    title: "AI Code Assistant",
-    description:
-      "Intelligent coding assistant with real-time code analysis, bug detection, performance suggestions, and automated refactoring.",
-    tags: ["Python", "TensorFlow", "React", "FastAPI", "ML"],
-    image: "/images/muimage.png",
-    github: "#",
-    featured: true
   }
 ];
 
@@ -171,10 +153,10 @@ const ProjectsPremium = () => {
             <h2 className="text-3xl font-bold text-white mb-8">Development Stats</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { label: "Projects Built", value: "50+" },
-                { label: "Technologies", value: "25+" },
-                { label: "Code Commits", value: "2000+" },
-                { label: "Happy Clients", value: "30+" }
+                { label: "Projects Built", value: "5+" },
+                { label: "Technologies", value: "10+" },
+                { label: "Code Commits", value: "200+" }
+                
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}

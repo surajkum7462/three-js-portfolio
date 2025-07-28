@@ -5,6 +5,7 @@ import { Float, Sphere, Box, Torus, Stars, OrbitControls, Text3D } from "@react-
 import SkillIcon3D from "../components/SkillIcon3D.jsx";
 import * as THREE from "three";
 
+
 const FloatingShape3D = ({ position, color, size, type }) => {
   const meshRef = useRef();
   

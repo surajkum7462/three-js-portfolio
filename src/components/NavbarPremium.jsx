@@ -15,6 +15,7 @@ const NavbarPremium = () => {
     { name: 'Blog', path: '/blog', icon: '📝' },
     { name: 'Contact', path: '/contact', icon: '📧' },
     { name: 'Socials', path: '/socials', icon: '🌐' }
+
   ];
 
   useEffect(() => {
@@ -167,16 +168,7 @@ const NavbarPremium = () => {
                   </motion.div>
                 ))}
                 
-                <motion.div
-                  className="pt-4 border-t border-white/20"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.6 }}
-                >
-                  <button className="w-full px-4 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold">
-                    Hire Me
-                  </button>
-                </motion.div>
+               
               </div>
             </motion.div>
           </motion.div>

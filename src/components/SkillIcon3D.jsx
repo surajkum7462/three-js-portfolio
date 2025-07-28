@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { FaCogs } from 'react-icons/fa';
 import {
   SiHtml5,
   SiCss3,
@@ -14,9 +15,7 @@ import {
   SiTailwindcss
 } from 'react-icons/si';
 
-import { FaCode } from 'react-icons/fa';
-// import { SiOpenjdk } from "react-icons/si";
-
+import { FaCode, FaJava } from 'react-icons/fa'; // ✅ Replaced SiJava with FaJava
 
 // Exact Technology Icons Mapping
 const getSkillIcon = (skillName) => {
@@ -43,7 +42,7 @@ const getSkillIcon = (skillName) => {
     bgGradient: "from-cyan-400 to-blue-500"
   };
   if (name.includes('java') && !name.includes('script')) return {
-    icon: SiJava,
+    icon: FaJava, // ✅ Updated here
     color: "#007396",
     bgGradient: "from-orange-600 to-red-600"
   };
@@ -73,10 +72,10 @@ const getSkillIcon = (skillName) => {
     bgGradient: "from-blue-400 to-blue-600"
   };
   if (name.includes('maven')) return {
-    icon: SiMaven,
-    color: "#C71A36",
-    bgGradient: "from-red-600 to-red-700"
-  };
+  icon: FaCogs,
+  color: "#C71A36",
+  bgGradient: "from-red-600 to-red-700"
+};
   if (name.includes('tailwind')) return {
     icon: SiTailwindcss,
     color: "#06B6D4",
