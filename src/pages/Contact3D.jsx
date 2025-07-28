@@ -556,11 +556,12 @@ function Contact3D() {
           </div>
 
           <button
-            type="submit"
-            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2 rounded hover:opacity-90 transition duration-200"
-          >
-            Send Message
-          </button>
+  type="submit"
+  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2 rounded hover:opacity-90 transition duration-200"
+>
+  Send Message
+</button>
+
         </form>
       </div>
     </div>
